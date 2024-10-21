@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Documentação da Criação do Componente e Testes
+### Counter.js: Este componente exibe um contador que pode ser incrementado ou decrementado. O estado do contador é gerenciado pelo hook useState.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Counter.test.js: Este arquivo contém os testes para o componente Counter. Utiliza a React Testing Library para renderizar o componente e simular interações do usuário.
 
-## Available Scripts
+# Explicação dos Testes
+### Teste de Renderização Inicial:
 
-In the project directory, you can run:
+### Propósito: Verificar se o contador é renderizado com o valor inicial correto.
+Verifica: Se o texto do contador é '0'.
+Teste de Incremento:
 
-### `npm start`
+### Propósito: Confirmar que o botão de incremento aumenta o contador corretamente.
+Verifica: Se o contador mostra '1' após um clique no botão "Incrementar".
+Teste de Decremento:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Propósito: Garantir que o botão de decremento diminui o contador corretamente.
+Verifica: Se o contador mostra '-1' após um clique no botão "Decrementar".
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Execute npm start para visualizar o componente no navegador na porta 3000
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Execute npm test para vizualizar os testes do componente criado no console
